@@ -29,7 +29,6 @@ val appModule = module {
     single { createOkHttpClient(get()) }
     single { createScarlet(okHttpClient = get(), lifecycle = get()) }
 
-
 }
 
 val dataModule = module {
