@@ -3,7 +3,6 @@ package id.cikup.coinbasewebsocket.data.repository
 import android.annotation.SuppressLint
 import com.tinder.scarlet.WebSocket
 import id.cikup.coinbasewebsocket.data.mapper.CoinbaseMapper
-import id.cikup.coinbasewebsocket.data.request.BITCOIN_TICKER_SUBSCRIBE_MESSAGE
 import id.cikup.coinbasewebsocket.data.request.SubscribeTradeRequest
 import id.cikup.coinbasewebsocket.data.service.GlobalService
 import id.cikup.coinbasewebsocket.domain.CoinbaseDomain
